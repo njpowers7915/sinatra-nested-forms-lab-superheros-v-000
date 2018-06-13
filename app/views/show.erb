@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
 
+<h1><%=@team.name%></h1>
+<br>
+
+
+  <div class="pirate">
+    <p>Name: <%=@pirate.name%></p><br>
+    <p>Weight: <%=@pirate.weight%></p><br>
+    <p>Height: <%=@pirate.height%></p><br>
+  </div><br>
+
+<div class="ship">
+<!--<h2>Display your first ship here</h2>-->
+<% @ships.each do |ship| %>
+  <p>Name: <%=ship.name%></p><br>
+  <p>Type: <%=ship.type%></p><br>
+  <p>Booty: <%=ship.booty%></p><br>
+<% end %>
+
+<!--<h2>Display your second ship here</h2>-->
+
+</div>
+
+</html>
