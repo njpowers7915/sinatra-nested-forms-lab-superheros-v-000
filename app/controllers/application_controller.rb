@@ -9,5 +9,10 @@ class App < Sinatra::Base
     
       erb :form
     end
+    
+    post "/teams" do
+      
+      erb :show
+    end
 
 end
