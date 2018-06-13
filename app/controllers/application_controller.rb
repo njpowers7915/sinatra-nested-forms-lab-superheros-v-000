@@ -7,7 +7,7 @@ class App < Sinatra::Base
 
     get "/" do
     
-      erb :
+      erb :team
     end
 
 end
